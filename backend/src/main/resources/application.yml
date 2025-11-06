@@ -18,4 +18,12 @@ spring:
       schema-locations: classpath:schema.sql
       data-locations: classpath:data.sql
 
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /docs
+    operations-sorter: method
+    tags-sorter: alpha
+
 
